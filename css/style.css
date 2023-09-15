@@ -1,0 +1,129 @@
+
+body{
+	
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	background-color: rgb(6, 06, 046, 1.60);
+}
+header{
+	width: 100%;
+	background-color: black;
+	color: white;
+	display: flex;
+}
+.logo{
+	font-family: sans-serif;
+	font-size: 35px;
+	font-weight: bold;
+	margin-left: 20px;
+	margin-top: 2opx;
+	padding: 10px;
+}
+.navebar{
+	display: flex;
+	padding-left: 250px;
+/*	justify-content: center;
+	align-items: center;*/
+}
+
+.navebar ul{
+	list-style: none;
+	margin-top: 2%;
+}
+
+.navebar ul li{
+	background-color: ;
+	width: 170px;
+	border: 1px solid red;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	float: left;
+	color: white;
+	font-size: 16px;
+	font-weight: bold;
+	text-transform: uppercase;
+	position: relative;
+
+}
+.navebar ul li a{
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.navebar ul li a:hover{
+	background-color: red;
+}
+.navebar ul li:hover{
+	background-color: red;
+	transition:all ease-in 0.5s; 
+}
+
+.navebar ul ul{
+	display: none;
+}
+.navebar ul li:hover>ul{
+	display: block;
+}
+footer{
+	position: absolute;
+	background-color: black;
+	bottom: 0;
+	text-align: center;
+	width: 100%;
+	color: white;
+}
+.name h2{
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 50px;
+}
+
+.text p{
+	width: 600px;
+	text-align: center;
+	margin: 0 auto;
+	position: relative;
+	top: -30px;
+}
+.icon i{
+	font-size: 45px;
+	position: relative;
+	top: -20px;
+	padding: 10px;
+
+}
+.copy{
+	height: 50px;
+	width: auto;
+	background color: white;
+	line-height: 50px;
+}
+
+.form1{
+	background-color: crimson;
+	color: white;
+	text-align: center;
+	font-size: ;
+	margin: o auto;
+	width: fit-content;
+	height: fit-content;
+	padding: 30px 80px;
+	margin-top: 30px auto;
+	border-radius: 5%;
+	box-shadow: 0 4px 8px 0;
+}
+.form1 input{
+	padding: 5px 40px;
+	border-color: yellowgreen;
+	border-radius: 50px;
+}
+
+.form1 btn{
+	font-weight: bold;
+}
